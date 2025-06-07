@@ -1,0 +1,114 @@
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-white-color);
+  border-bottom: 1px solid var(--secondary-gray-color);
+}
+
+.header-content {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-section {
+  padding: 8px;
+  text-align: center;
+}
+
+.logo-fravega {
+    width: 150px;
+    height: 75px;
+}
+
+.section-left{
+  width: 20%;
+  cursor: pointer;
+}
+
+.section-right {
+  width: 20%;
+  font-size: 18px;
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.section-right:hover{
+  cursor: pointer;
+  background-color: var(--primary-gray-color);
+}
+
+.section-center {
+  width: 40%;
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--secondary-gray-color);
+}
+
+.header-content {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-section {
+  padding: 8px;
+  text-align: center;
+}
+
+.section-left,
+.section-right {
+  width: 20%;
+}
+
+.section-center {
+  width: 40%;
+}
+
+/* === TABLET === */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .header-content {
+    width: 100%;
+  }
+
+  .section-left,
+  .section-right {
+    width: 20%;
+  }
+
+  .section-center {
+    width: 50%;
+  }
+}
+
+/* === CELULAR === */
+@media (max-width: 768px) {
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 12px;
+  }
+
+  .section-left {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-center {
+    width: 100%;
+  }
+
+  .logo-fravega {
+    width: 100px;
+    height: 50px;
+  }
+}

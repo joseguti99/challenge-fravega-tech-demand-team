@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+[![Fravega](https://www.producteca.com/wp-content/uploads/2019/10/logo-fravega.png)](https://www.linkedin.com/in/jose-gabriel-gutierrez)
 
-## Getting Started
+## 🚀 Getting Started Frávega Challenge
 
-First, run the development server:
+Primero, ejecutá el servidor de desarrollo:
 
 ```bash
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrí [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Podés comenzar a editar la página modificando `app/page.tsx`. La página se actualiza automáticamente mientras editás el archivo.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## 🚀 Testing con Jest
 
-To learn more about Next.js, take a look at the following resources:
+Se utiliza la libreria de testing Jest. Tomada de la documentación oficial de NextJs:  
+[https://nextjs.org/docs/app/guides/testing/jest](https://nextjs.org/docs/app/guides/testing/jest)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para ejecutar los test en la aplicacion debe correr:
+```bash
+npm run test
+```
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🌐 API utilizada
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Se utiliza la API REST de GitHub. Documentación oficial:  
+[https://docs.github.com/es/rest/using-the-rest-api](https://docs.github.com/es/rest/using-the-rest-api)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📘 Aprendé más
+
+Para aprender más sobre Next.js, podés consultar los siguientes recursos:
+
+- [Documentación de Next.js](https://nextjs.org/docs) - para conocer sus características y API.
+- [Aprender Next.js](https://nextjs.org/learn) - un tutorial interactivo de Next.js.
+
+También podés visitar [el repositorio oficial de Next.js en GitHub](https://github.com/vercel/next.js) — ¡tu feedback y contribuciones son bienvenidos!
+
+---
+
+## 🚀 Despliegue en Vercel
+
+La forma más sencilla de desplegar tu aplicación Next.js es usando la [plataforma de Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), creada por los desarrolladores de Next.js.
+
+Consultá la [documentación de despliegue de Next.js](https://nextjs.org/docs/app/building-your-application/deploying) para más detalles.
+
+🔗 Enlace al despliegue:  
+[https://nextjs-challenge-fravega-tech.vercel.app/](https://nextjs-challenge-fravega-tech.vercel.app/)
+
+## Autor
+Jose Gabriel gutierrez - Desarrollador de Software
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jose-gabriel-gutierrez)

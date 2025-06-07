@@ -1,0 +1,79 @@
+.card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 2 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.favorite-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #888;
+}
+
+.favorite-button.favorited {
+    color: #ff5a5f;
+}
+
+.btn-view-details{
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+.btn-view-details:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+.card-header{
+    text-align: end;
+}
+
+.card-name{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+    .users-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .users-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,63 @@
+.header-favorites-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-white-color);
+  border-bottom: 1px solid var(--secondary-gray-color);
+}
+
+.header-favorites-content {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.title-favorites {
+  color: var(--secondary-color);
+  letter-spacing: 0.5px;
+  font-size: 24px;
+}
+
+.logo-fravega {
+  width: 150px;
+  height: auto;
+}
+
+.btn-return-users {
+  font-size: 18px;
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+  padding: 0.5rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.btn-return-users:hover {
+  cursor: pointer;
+  background-color: var(--primary-gray-color);
+}
+
+@media (max-width: 1024px) {
+  .header-favorites-content {
+    width: 90%;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .logo-fravega {
+    width: 120px;
+  }
+
+  .btn-return-users {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .title-favorites {
+    font-size: 20px;
+  }
+}
