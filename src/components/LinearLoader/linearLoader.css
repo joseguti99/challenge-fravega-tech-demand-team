@@ -1,0 +1,29 @@
+.linear-loader {
+    width: 100%;
+    height: 3px;
+    background-color: var(--secondary-gray-color);
+    overflow: hidden;
+    position: relative;
+}
+
+.loader-bar {
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    animation: loader-animation 1s infinite linear;
+    transform-origin: left;
+}
+
+@keyframes loader-animation {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(50%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
