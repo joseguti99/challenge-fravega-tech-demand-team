@@ -1,0 +1,91 @@
+.clock-container {
+    background: var(--black-color);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 2rem 0;
+    position: relative;
+    box-shadow: 0 20px 40px var(--black-color);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clock-glow {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background-color: var(--primary-color);
+    border-radius: 22px;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.clock-display {
+    font-family: 'Courier New', monospace;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary-white-color);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.time-digit {
+    display: inline-block;
+    padding: 0 0.3rem;
+    border-radius: 8px;
+}
+
+.hours {
+    background-color: var(--primary-white-color);
+    color: var(--primary-color);
+}
+
+.minutes {
+    background-color: var(--primary-white-color);
+    color: var(--primary-color);
+}
+
+.seconds {
+    background-color: var(--primary-white-color);
+    color: var(--primary-color);
+    animation: pulse-seconds 1s ease-in-out infinite;
+}
+
+.time-separator {
+    color: var(--primary-white-color);
+    animation: blink 1s ease-in-out infinite;
+    font-size: 3.5rem;
+}
+
+.clock-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .clock-display {
+        font-size: 2rem;
+    }
+
+    .time-separator {
+        font-size: 2.5rem;
+    }
+
+    .milliseconds {
+        font-size: 1rem;
+    }
+    .clock-container {
+        padding: 1.5rem;
+    }
+}

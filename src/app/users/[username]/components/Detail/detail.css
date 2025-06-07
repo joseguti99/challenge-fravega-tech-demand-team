@@ -1,0 +1,185 @@
+.user-detail-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.loading-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.profile-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #ddd;
+}
+
+.profile-name {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.profile-username {
+  color: #666;
+  margin: 0 0 15px 0;
+}
+
+.profile-bio {
+  color: #555;
+  font-style: italic;
+}
+
+.github-link {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.info-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.info-title {
+  margin: 0 0 15px 0;
+  color: #333;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.info-item {
+  color: #333;
+}
+
+.info-item a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.info-item strong {
+  color: #000;
+}
+
+.repos-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.ul-repo{
+  list-style: none;
+  text-decoration: none;
+}
+
+.repos-title {
+  margin: 0 0 20px 0;
+  color: #333;
+}
+
+.repo-item {
+  border: 1px solid var(--secondary-color);
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  text-decoration: none;
+  color: var(--primary-black)
+}
+
+.repo-item:hover{
+  background-color: var(--secondary-color);
+  color: white;
+  cursor: pointer;
+}
+
+.repo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.repo-content {
+  flex: 1;
+}
+
+.repo-name {
+  margin: 0 0 5px 0;
+  color: #7447cc;
+}
+
+.repo-item{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.repo-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.repo-description {
+  color: #666;
+  margin: 0 0 10px 0;
+  font-size: 14px;
+}
+
+.repo-stats {
+  display: flex;
+  gap: 15px;
+  font-size: 12px;
+  color: #666;
+}
+
+.favorites-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.favorites-title {
+  margin: 0 0 15px 0;
+  color: #333;
+}
+
+.back-btn{
+    background-color: var(--secondary-color);
+    border:none;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 20px;
+    cursor : pointer;
+}
+
+.back-container{
+  display: flex;
+  justify-content: space-between;
+}
